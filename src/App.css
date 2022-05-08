@@ -1,0 +1,51 @@
+body{
+    background: url("./Rectangle 10.png") no-repeat center/cover;
+    /*background: #da0f0f;*/
+}
+.header{
+    padding: 10px;
+}
+.header-hero{
+    position: absolute;
+    margin-top: 30px;
+}
+.header-input{
+    margin-left: 665px;
+    width: 465px;
+    height: 38px;
+    color: white;
+    background: rgba(250, 250, 250, 0.2);
+    border-radius:8px;
+    border:none;
+}
+
+.header-title{
+    margin-left: 30px;
+}
+.home{
+    padding: 20px;
+    margin: 0 80px;
+}
+.hero-span{
+    margin-top: 20px;
+    margin-left: 35px;
+    width: 1300px;
+    height: 3px;
+    background: #fff;
+}
+.text{
+    background-image:
+linear-gradient(
+transparent 0%,
+    transparent 90%,
+yellow 90%,
+yellow 100%
+);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+}
+.text:hover{
+    background-size: 100% 100%;
+    background-position-x: left ;
+}
